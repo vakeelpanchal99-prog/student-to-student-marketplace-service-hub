@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "New project",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Deploy the current version of the Student Marketplace Hub application (backend and frontend) to the Internet Computer mainnet so it is publicly accessible.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Student Marketplace Hub",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

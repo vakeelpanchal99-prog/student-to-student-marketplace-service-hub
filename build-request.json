@@ -1,0 +1,39 @@
+{
+  "kind": "build_request",
+  "title": "Deploy app to live network",
+  "projectName": "Student Marketplace Hub",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Deploy the current version of the Student Marketplace Hub application (backend and frontend) to the Internet Computer mainnet so it is publicly accessible.",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Go live"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The backend Motoko canister is deployed and running on the IC mainnet.",
+        "The frontend is deployed and accessible via a public IC URL.",
+        "All existing features (marketplace listings, service listings, papers upload, video sharing, admin dashboard, user profiles, meetup tracker) are functional on the live deployment.",
+        "Internet Identity authentication works on the live deployment."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any application logic, UI, or data models — this is a deployment-only action.",
+    "Preserve all existing state and feature functionality from the current version."
+  ],
+  "nonGoals": [
+    "Adding new features or fixing bugs as part of this deployment.",
+    "Changing any frontend or backend code."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
